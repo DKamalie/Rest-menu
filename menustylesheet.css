@@ -1,0 +1,1020 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-image: url("./tile22.jpg");
+  font-family: 'Oxygen', sans-serif;
+}
+.navbar a:link {
+  color: #000;
+}
+.navbar a:visited {
+  color: #000;
+}
+.navbar a:hover {
+  color: #fff;
+  transition: 0.2s;
+  background-color: #fff;
+  border-radius: 25px;
+}
+.navbar a:active {
+  color: black;
+}
+.navbar a {
+  text-decoration: none;
+  padding: 20px;
+  background-color: #D8D8C5;
+  border-radius: 5px;
+  background-image: url("./navwood.jpg");
+  transition: 1s ease-in-out;
+
+}
+
+/*-------------NAVIGATION BAR --------*/
+.navbar {
+  display: grid;
+  grid-template-columns: 48% 13% 13% 13% 13% ;
+  grid-template-rows: repeat(1, 100%);
+  grid-template-areas:
+  "logo home menu about contact";
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #100716;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+}
+.logo {
+grid-area: logo;
+padding: 20px 20px;
+font-family: cursive;
+color: #006600;
+font-size: 30px;
+padding: 0px;
+color: #FFF;
+
+}
+.home {
+grid-area: home;
+background: #100716;
+padding: 40px 20px;
+color: #FFF;
+
+
+}
+.menu {
+grid-area: menu;
+background: #100716;
+padding: 40px 20px;
+color: #FFF;
+}
+.about {
+grid-area: about;
+background: #100716;
+padding: 40px 20px;
+color: #FFF;
+}
+.contact {
+grid-area: contact;
+background: #100716;
+padding: 40px 20px;
+color: #FFF;
+}
+
+
+/* NAV BAR */
+
+/*-------------^NAVIGATION BAR^ --------*/
+
+
+/* -----------CONTENT-------------*/
+.menu-details {
+  margin-top: 20px;
+}
+.menu-details h1 {
+  text-align: center;
+  color: #fff;
+}
+.menu-details p {
+  text-align: center;
+  margin-top:10px;
+  color: #fff;
+}
+.allcards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(5, 200px);
+  grid-template-areas:
+  "c1 c2 c3 c4"
+  "c5 c6 c7 c8"
+  "c9 c10 c11 c12"
+  "c13 c14 c15 c16"
+  "c17 c18 c19 c20";
+  margin: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  justify-items: center;
+}
+
+.c1 {
+  grid-area: c1;
+  width: 260px;
+
+}
+.c2 {
+  grid-area: c2;
+  width: 260px;
+}
+.c3 {
+  grid-area: c3;
+  width: 260px;
+}
+.c4 {
+  grid-area: c4;
+  width: 260px;
+}
+.c5 {
+  grid-area: c5;
+  width: 260px;
+}
+.c6 {
+  grid-area: c6;
+  width: 260px;
+}
+.c7 {
+  grid-area: c7;
+  width: 260px;
+}
+.c8 {
+  grid-area: c8;
+  width: 260px;
+}
+.c9 {
+  grid-area: c9;
+  width: 260px;
+}
+.c10 {
+  grid-area: c10;
+  width: 260px;
+}
+.c11 {
+  grid-area: c11;
+  width: 260px;
+}
+.c12 {
+  grid-area: c12;
+  width: 260px;
+}
+.c13 {
+  grid-area: c13;
+  width: 260px;
+}
+.c14 {
+  grid-area: c14;
+  width: 260px;
+}
+.c15 {
+  grid-area: c15;
+  width: 260px;
+}
+.c16 {
+  grid-area: c16;
+  width: 260px;
+}
+.c17 {
+  grid-area: c17;
+  width: 260px;
+}
+.c18 {
+  grid-area: c18;
+  width: 260px;
+}
+.c19 {
+  grid-area: c19;
+  width: 260px;
+}
+.c20 {
+  grid-area: c20;
+  width: 260px;
+}
+
+.t1 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.t2 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.t3 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+}
+.t4 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+}
+.t5 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.t6 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.t7 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.t8 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.t9 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.t10 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.t11 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.t12 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.t13 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+}
+.t14 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.t15 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.t16 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.t17 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.t18 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.t19 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+}
+.t20 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+  opacity: 0.9;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+@media(max-width: 1000px) {
+  .allcards {
+    display: grid;
+    text-align: center;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "c1 c2 c3"
+    "c4 c5 c6"
+    "c7 c8 c9"
+    "c10 c11 c12"
+    "c13 c14 c15"
+    "c16 c17 c18"
+    "c19 c20 .";
+  }
+
+
+}
+@media(max-width: 700px) {
+  .allcards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "c1 c2"
+    "c3 c4"
+    "c5 c6"
+    "c7 c8"
+    "c9 c10"
+    "c11 c12"
+    "c13 c14"
+    "c15 c16"
+    "c17 c18"
+    "c19 c20";
+  }
+}
+@media(max-width: 500px) {
+  .allcards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "c1"
+    "c2"
+    "c3"
+    "c4"
+    "c5"
+    "c6"
+    "c7"
+    "c8"
+    "c9"
+    "c10"
+    "c11"
+    "c12"
+    "c13"
+    "c14"
+    "c15"
+    "c16"
+    "c17"
+    "c18"
+    "c19"
+    "c20";
+  }
+}
+
+
+
+/*
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-gap: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 44px;
+  margin-bottom: 40px;
+
+
+  grid-template-areas:
+  "c1 c2 c3 c4"
+  "c5 c6 c7 c8"
+  "c9 c10 c11 c12"
+  "c13 c14 c15 c16"
+  "c17 c18 c19 c20";
+
+
+
+}
+.c1 {
+  grid-area: c1;
+  width: 200px;
+  height: 200px;
+}
+.t1 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c2 {
+  grid-area: c2;
+  width: 200px;
+  height: 200px;
+}
+.t2 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c3 {
+  grid-area: c3;
+  width: 200px;
+  height: 200px;
+}
+.t3 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.c4 {
+  grid-area: c4;
+  width: 200px;
+  height: 200px;
+}
+.t4 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c5 {
+  grid-area: c5;
+  width: 200px;
+  height: 200px;
+}
+.t5 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c6 {
+  grid-area: c6;
+  width: 200px;
+  height: 200px;
+}
+.t6 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c7 {
+  grid-area: c7;
+  width: 200px;
+  height: 200px;
+}
+.t7 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c8 {
+  grid-area: c8;
+  width: 200px;
+  height: 200px;
+}
+.t8 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c9 {
+  grid-area: c9;
+  width: 200px;
+  height: 200px;
+}
+.t9 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c10 {
+  grid-area: c10;
+  width: 200px;
+  height: 200px;
+}
+.t10 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c11 {
+  grid-area: c11;
+  width: 200px;
+  height: 200px;
+}
+.t11 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.c12 {
+  grid-area: c12;
+  width: 200px;
+  height: 200px;
+}
+.t12 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c13 {
+  grid-area: c13;
+  width: 200px;
+  height: 200px;
+}
+.t13 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c14 {
+  grid-area: c14;
+  width: 200px;
+  height: 200px;
+}
+.t14 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c15 {
+  grid-area: c15;
+  width: 200px;
+  height: 200px;
+}
+.t15 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c16 {
+  grid-area: c16;
+  width: 200px;
+  height: 200px;
+}
+.t16 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c17 {
+  grid-area: c17;
+  width: 200px;
+  height: 200px;
+}
+.t17 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c18 {
+  grid-area: c18;
+  width: 200px;
+  height: 200px;
+}
+.t18 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c19 {
+  grid-area: c19;
+  width: 200px;
+  height: 200px;
+}
+.t19 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+.c20 {
+  grid-area: c20;
+  width: 200px;
+  height: 200px;
+}
+.t20 {
+  position: absolute;
+  transform: translate(0px, -110%);
+  letter-spacing: 2px;
+  background-color: #161616;
+
+  width: 200px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+*/
+/* -----------^CONTENT^-------------*/
+
+/*-------------FOOTER --------*/
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  grid-template-rows: repeat(1, fr);
+  grid-template-areas:
+  "hours address quote";
+  margin-top: 20px;
+
+}
+.hours {
+  grid-area: hours;
+  background-color: #161616;
+  padding: 50px;
+  word-spacing: 10px;
+
+}
+.address {
+  grid-area: address;
+  background-color: #161616;
+  padding: 50px;
+
+}
+.quote {
+  grid-area: quote;
+  background-color: #161616;
+  padding: 50px;
+
+}
+#deliv {
+  color: green;
+  font-size: 13px;
+}
+#hours {
+  font-size: 25px;
+}
+#address {
+  font-size: 25px;
+}
+
+
+/*-------------^FOOTER^ --------*/
+
+/*---- MEDIA QUERIES For Nav Bar---------*/
+/* 1050px Screen */
+@media(max-width: 1050px) {
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas:
+    "logo home menu"
+    "logo about contact";
+    padding: 10px;
+  }
+  .logo {
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+  .home {
+    grid-area: home;
+
+  }
+  .menu {
+    grid-area: menu;
+
+  }
+  .about {
+    grid-area: about;
+
+  }
+  .contact {
+    grid-area: contact;
+
+  }
+}
+/* 580px Screen */
+@media(max-width: 580px) {
+  .navbar {
+    display: grid;
+    height: 630px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 18.75% 18.75% 18.75% 18.75% ;
+    grid-template-areas:
+    "logo"
+    "home"
+    "menu"
+    "about"
+    "contact";
+    background-color: rgba(16, 7, 22, 0.8) ;
+
+  }
+  .logo {
+    grid-area: logo;
+    adding: 10px 10px 40px 10px;
+
+  }
+  .home {
+    grid-area: home;
+    padding: 2px;
+    margin-bottom: 10px;
+  }
+  .menu {
+    grid-area: menu;
+    padding: 2px;
+  }
+  .about {
+    grid-area: about;
+    padding: 2px;
+  }
+  .contact {
+    grid-area: contact;
+    padding: 2px;
+  }
+  .navbar a {
+    padding: 10px 80px;
+  }
+
+}
+
+
+
+
+
+
+
+
+  /*----^ MEDIA QUERIES For Nav Bar^---------*/
+
+  /* ---MEDIA QUERIES FOR CONTENT ----*/
+  @media(max-width: 950px) {
+    .cards {
+      display: grid;
+      width: 100%;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: repeat(7, 500px);
+      grid-template-areas:
+      "c1 c2 c3"
+      "c4 c5 c6"
+      "c7 c8 c9"
+      "c10 c11 c12"
+      "c13 c14 c15"
+      "c16 c17 c18"
+      "c19 c20";
+    }
+  }
+
+
+  /* ---MEDIA QUERIES FOR CONTENT ----*/
+
+
+       /*---- MEDIA QUERIES For Footer---------*/
+       @media(max-width: 740px) {
+         .footer {
+           display: grid;
+           grid-template-columns: 1fr;
+           grid-template-rows: repeat(auto, minmax(1fr, 100px));
+           grid-template-areas:
+           "hours"
+           "address"
+           "quote";
+           margin-top: 10px;
+           padding: 5px;
+           text-align: center;
+         }
+         .hours {
+           grid-area: hours;
+           padding:10px 10px 20px 10px;
+         }
+         .address {
+           grid-area: address;
+           padding: 10px 10px 20px 10px;
+         }
+         .quote {
+           grid-area: quote;
+           padding: 10px 10px 20px 10px;
+
+       /*----^ MEDIA QUERIES For Footer^---------*/
